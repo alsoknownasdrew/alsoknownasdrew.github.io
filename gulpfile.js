@@ -1,4 +1,4 @@
-const { src, dest, parallel } = require("gulp");
+const { src, dest, parallel, watch } = require("gulp");
 const concat = require("gulp-concat");
 const minifyCSS = require("gulp-csso");
 const plumber = require("gulp-plumber");
@@ -32,6 +32,11 @@ const img = () => {
     );
 };
 
+const watchFiles = () => {
+    watch(config.assetsDir + "/" + config.sassSrc, styles);
+  }
+
 exports.styles = styles;
 exports.img = img;
+exports.watch = watchFiles;
 exports.default = parallel(styles, img);
