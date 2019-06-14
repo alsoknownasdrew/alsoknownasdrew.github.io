@@ -6,11 +6,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
 }
 
 h1 {
     font-size: 2.25rem;
-    font-weight: 800;
+    font-weight: 900;
     margin: 1rem 0;
     padding-top: 1em;
 }
