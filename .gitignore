@@ -4,6 +4,10 @@
 # Dependency directories
 node_modules/
 
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+
+assets/*
+
 # Sass stuff
 .sass-cache/
 *.css.map
