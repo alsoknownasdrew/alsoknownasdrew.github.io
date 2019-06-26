@@ -1,0 +1,24 @@
+.header-logo {
+    display: block;
+    background: indigo;
+    margin: 0 auto;
+    border-radius: 48% 48% 57% 36% / 48% 56% 37% 48%;
+    padding: 1rem;
+    max-width: 50%;
+    animation: wobble 3s ease-in-out alternate infinite;
+
+    @media screen and (min-width: 768px) {
+        max-width: 25%;
+    }
+}
+
+@keyframes wobble {
+    0% {
+		border-radius: 48% 48% 57% 36% / 48% 56% 37% 48%;
+		transform: translateY(0);
+    }
+    100% {
+		border-radius: 70% 23% 25% 74% / 50% 79% 19% 50%;
+		transform: translateY(-1rem);
+    }
+}
