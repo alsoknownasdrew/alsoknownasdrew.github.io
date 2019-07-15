@@ -34,7 +34,7 @@ const img = () => {
 
 const watchFiles = () => {
     watch(config.assetsDir + "/" + config.sassSrc, styles);
-  }
+};
 
 exports.styles = styles;
 exports.img = img;
