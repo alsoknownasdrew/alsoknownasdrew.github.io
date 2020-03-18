@@ -1,0 +1,19 @@
+{
+  "name": "frankevych.dev",
+  "version": "2020.3.1",
+  "description": "Andriy Frankevych developer website",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsoknownasdrew/alsoknownasdrew.github.io.git"
+  },
+  "author": "alsoknownasdrew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alsoknownasdrew/alsoknownasdrew.github.io/issues"
+  },
+  "homepage": "https://github.com/alsoknownasdrew/alsoknownasdrew.github.io#readme"
+}
