@@ -1,3 +1,4 @@
-# Parcel
-dist/
-.cache/
+node_modules
+
+.cache
+dist
