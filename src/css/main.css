@@ -23,7 +23,27 @@ h1 {
 
 a,
 a:focus,
-a:focus,
+a:active,
 a:visited {
-    color: #7f5af0;
+    color: #94a1b2;
+    position: relative;
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    background: #7f5af0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    height: 40%;
+    display: inline-block;
+    width: 100%;
+    transition: height .3s ease-out;
+}
+
+a:hover::after {
+    height: 70%;
 }
