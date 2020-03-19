@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-source-maps",
+    "build": "rm -r dist && parcel build src/index.html --no-source-maps && cp src/CNAME dist && cp src/robots.txt dist",
     "deploy": "gh-pages -d dist -b master"
   },
   "repository": {
